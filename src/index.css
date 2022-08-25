@@ -1,0 +1,214 @@
+
+*{
+  box-sizing: border-box;
+  /* font-family:"poppins"; */
+}
+.hand-pointer{
+ cursor: pointer;
+}
+.blue-color{
+color: #192F60;
+}
+.bg-image{
+  background-image:linear-gradient(180deg, #9D0E0E00 0%, #2b0206e6 100%), url("./main-bg.png");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logo{
+  background-color: #fff;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  font-size: 62px;
+  text-align: center;
+  color:#EB2929;
+}
+.food-item-img{
+height: 120px;
+width: 120px;
+border-radius: 10px;
+}
+.food-item-desc{
+color: #8C96AB;
+font-size: 14px;
+}
+.locationDropdown, .restaurantsinput{
+font-size: 15px;
+color: #636f88;
+}
+.search:hover .search-result{
+ opacity: 1;
+}
+.search-result{
+opacity: 0;
+}
+
+.search-result span{
+font-size: 15px;
+}
+.dropdownimg{
+height: 50px;
+width: 50px;
+border-radius: 25px;
+}
+.serachLocation{
+font-size: 10px;
+}
+.icon{
+z-index: 1;
+}
+/* Search Page Start */
+.main-header p {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #EB2929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.food-shadow{
+  box-shadow: 0 0 4px 0 gray;
+}
+.item-img{
+height: 86px;
+width: 86px;
+border-radius: 28px;
+}
+.pagination{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+/* .pagination a {
+color: #8C96AB;
+background-color: #FFFFFF;
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+border: 1px solid #8C96AB;
+height: 22px;
+width: 22px;
+border-radius: 5px;
+opacity: 0.8;
+text-decoration: none;
+margin: 4px;
+padding:1px;
+}
+.pagination a.active {
+background-color: #8C96AB;
+color: white;
+} */
+.pages {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+}
+.pages li {
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  color: gray;
+  font-weight: bold;
+}
+.pages .active {
+  border: 1px solid white;
+  color: white;
+  background-color: gray;
+}
+
+/* menu item  */
+.menu-food-item {
+  width: 90px;
+  height: 90px;
+  background-color: #192f60;
+  position: relative;
+}
+.menu-food-item .add {
+  position: absolute;
+  left: 25%;
+  bottom: -20%;
+}
+.menu-food-item img {
+  width: 100%;
+  height: 100%;
+}
+.menu-food-item .order-item-count {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -20%;
+}
+.menu-food-item .order-item-count span {
+  background-color: white;
+  padding: 2px 5px;
+  border: 1px solid gray;
+  margin: 0 2px;
+}
+
+/* Search Page End */
+
+/* restaurant page start */
+
+.brand {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-main-image {
+  height: 70vh;
+  overflow: hidden;
+}
+.restaurant-main-image img {
+  height: 150%;
+  width: 100%;
+}
+.btn-gallery {
+  top: 85%;
+  right: 5%;
+  background-color: rgba(245, 222, 179, 0.411);
+  color: black;
+  font-weight: bold;
+}
+
+/* restaurant page end */
+
+@media screen and (max-width: 800px)  {
+.logo{
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  font-size: 45px;
+}
+.search-result span{
+font-size: 12px;
+}
+
+}
+
+@media screen and (min-width: 400px) {
+.search-result{
+  z-index: 2;
+}
+.search-result span{
+  font-size: 15px;
+}
+}
+
+

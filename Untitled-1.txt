@@ -1,0 +1,43 @@
+content:
+image:
+meal_type:
+name:
+__v:
+_id:
+
+
+city: "Delhi"
+city_id: 1
+country_name: "India"
+location_id: 1
+name: "Shalimar Bagh"
+__v: 0
+_id: "62e258e0903b09f0e0596762"
+
+
+city: "Delhi"
+image: "assets/breakfast.jpg"
+locality: "Shalimar Bagh"
+name: "Domino's"
+_id: "62f2321cf1b494a6229cea79"
+
+
+aggregate_rating: 4.5
+city: "Delhi"
+cuisine: (2) [{…}, {…}]
+image: "assets/lunch.png"
+locality: "Shalimar Bagh"
+min_price: 333
+name: "KFC"
+_id: "62f26e28eacf4bfabe
+
+
+description: "Made with paneer and some quick spicy content like chilly and flakes."
+image: "assets/breakfast.png"
+ingridients: (2) ['Paneer', 'Tomato']
+name: "Kadhai Paneer"
+price: 200
+qty: 0
+restaurantId: "62f26e28eacf4bfabe41b7d9"
+__v: 0
+_id: "62d19b9ef9cf4f933
